@@ -17,6 +17,9 @@ https://github.com/mukyasa/MMCamScanner
 
 下载opencv2.framework
 官方地址:[http://opencv.org/](http://opencv.org/)
+
+---
+
 我放到七牛云的地址:[http://okyhfqses.bkt.clouddn.com/opencv2.framework.zip](http://okyhfqses.bkt.clouddn.com/opencv2.framework.zip)
 
 ### 感谢
