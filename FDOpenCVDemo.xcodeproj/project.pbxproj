@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CB5B22D51F16733C00671B44 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB5B22D31F16732400671B44 /* opencv2.framework */; };
 		CB69625C1F126E2F00DF54D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB69625B1F126E2F00DF54D2 /* main.m */; };
 		CB69625F1F126E2F00DF54D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB69625E1F126E2F00DF54D2 /* AppDelegate.m */; };
 		CB6962621F126E2F00DF54D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6962611F126E2F00DF54D2 /* ViewController.m */; };
@@ -29,18 +28,18 @@
 		CB6962991F126F7200DF54D2 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB6962981F126F7200DF54D2 /* AssetsLibrary.framework */; };
 		CB69629B1F126F7900DF54D2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB69629A1F126F7900DF54D2 /* AVFoundation.framework */; };
 		CB69629D1F126F7E00DF54D2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB69629C1F126F7E00DF54D2 /* MobileCoreServices.framework */; };
-		CBA668AB1F473094001AC4AD /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB5B22D31F16732400671B44 /* opencv2.framework */; };
-		CBA668AC1F473094001AC4AD /* opencv2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CB5B22D31F16732400671B44 /* opencv2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CB8F6A241F151FFE008EE42D /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8F6A231F151FEE008EE42D /* opencv2.framework */; };
+		CB8F6A251F151FFE008EE42D /* opencv2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CB8F6A231F151FEE008EE42D /* opencv2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		CBA668AD1F473094001AC4AD /* Embed Frameworks */ = {
+		CB6962881F126F2000DF54D2 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				CBA668AC1F473094001AC4AD /* opencv2.framework in Embed Frameworks */,
+				CB8F6A251F151FFE008EE42D /* opencv2.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,7 +47,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CB5B22D31F16732400671B44 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		CB6962571F126E2F00DF54D2 /* FDOpenCVDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDOpenCVDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB69625B1F126E2F00DF54D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CB69625D1F126E2F00DF54D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -80,6 +78,7 @@
 		CB6962981F126F7200DF54D2 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		CB69629A1F126F7900DF54D2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		CB69629C1F126F7E00DF54D2 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CB8F6A231F151FEE008EE42D /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,12 +92,11 @@
 				CB6962971F126F6B00DF54D2 /* libstdc++.tbd in Frameworks */,
 				CB6962951F126F6500DF54D2 /* CoreMedia.framework in Frameworks */,
 				CB6962931F126F6000DF54D2 /* UIKit.framework in Frameworks */,
-				CBA668AB1F473094001AC4AD /* opencv2.framework in Frameworks */,
-				CB5B22D51F16733C00671B44 /* opencv2.framework in Frameworks */,
 				CB6962911F126F5B00DF54D2 /* Foundation.framework in Frameworks */,
 				CB69628F1F126F5600DF54D2 /* CoreImage.framework in Frameworks */,
 				CB69628D1F126F5100DF54D2 /* CoreGraphics.framework in Frameworks */,
 				CB69628B1F126F4B00DF54D2 /* CoreTelephony.framework in Frameworks */,
+				CB8F6A241F151FFE008EE42D /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,7 +169,7 @@
 		CB6962771F126E7700DF54D2 /* OpenCV */ = {
 			isa = PBXGroup;
 			children = (
-				CB5B22D31F16732400671B44 /* opencv2.framework */,
+				CB8F6A231F151FEE008EE42D /* opencv2.framework */,
 				CB6962781F126E7700DF54D2 /* MMCropView.h */,
 				CB6962791F126E7700DF54D2 /* MMCropView.m */,
 				CB69627A1F126E7700DF54D2 /* MMOpenCVHelper.h */,
@@ -209,7 +207,7 @@
 				CB6962531F126E2F00DF54D2 /* Sources */,
 				CB6962541F126E2F00DF54D2 /* Frameworks */,
 				CB6962551F126E2F00DF54D2 /* Resources */,
-				CBA668AD1F473094001AC4AD /* Embed Frameworks */,
+				CB6962881F126F2000DF54D2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -409,8 +407,6 @@
 				GCC_PREFIX_HEADER = $SRCROOT/FDOpenCVDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = FDOpenCVDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_CFLAGS = "";
-				OTHER_CODE_SIGN_FLAGS = "--deep";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = me.fandong.FDOpenCVDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -429,8 +425,6 @@
 				GCC_PREFIX_HEADER = $SRCROOT/FDOpenCVDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = FDOpenCVDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_CFLAGS = "";
-				OTHER_CODE_SIGN_FLAGS = "--deep";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = me.fandong.FDOpenCVDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
