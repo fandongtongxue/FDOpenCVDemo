@@ -28,18 +28,15 @@
 		CB6962991F126F7200DF54D2 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB6962981F126F7200DF54D2 /* AssetsLibrary.framework */; };
 		CB69629B1F126F7900DF54D2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB69629A1F126F7900DF54D2 /* AVFoundation.framework */; };
 		CB69629D1F126F7E00DF54D2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB69629C1F126F7E00DF54D2 /* MobileCoreServices.framework */; };
-		CB8F6A241F151FFE008EE42D /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8F6A231F151FEE008EE42D /* opencv2.framework */; };
-		CB8F6A251F151FFE008EE42D /* opencv2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CB8F6A231F151FEE008EE42D /* opencv2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		CB6962881F126F2000DF54D2 /* Embed Frameworks */ = {
+		CB60F2921FB062760083156C /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				CB8F6A251F151FFE008EE42D /* opencv2.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -78,7 +75,6 @@
 		CB6962981F126F7200DF54D2 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		CB69629A1F126F7900DF54D2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		CB69629C1F126F7E00DF54D2 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		CB8F6A231F151FEE008EE42D /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +92,6 @@
 				CB69628F1F126F5600DF54D2 /* CoreImage.framework in Frameworks */,
 				CB69628D1F126F5100DF54D2 /* CoreGraphics.framework in Frameworks */,
 				CB69628B1F126F4B00DF54D2 /* CoreTelephony.framework in Frameworks */,
-				CB8F6A241F151FFE008EE42D /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,7 +164,6 @@
 		CB6962771F126E7700DF54D2 /* OpenCV */ = {
 			isa = PBXGroup;
 			children = (
-				CB8F6A231F151FEE008EE42D /* opencv2.framework */,
 				CB6962781F126E7700DF54D2 /* MMCropView.h */,
 				CB6962791F126E7700DF54D2 /* MMCropView.m */,
 				CB69627A1F126E7700DF54D2 /* MMOpenCVHelper.h */,
@@ -207,7 +201,7 @@
 				CB6962531F126E2F00DF54D2 /* Sources */,
 				CB6962541F126E2F00DF54D2 /* Frameworks */,
 				CB6962551F126E2F00DF54D2 /* Resources */,
-				CB6962881F126F2000DF54D2 /* Embed Frameworks */,
+				CB60F2921FB062760083156C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -224,7 +218,7 @@
 		CB69624F1F126E2F00DF54D2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = fandong;
 				TargetAttributes = {
 					CB6962561F126E2F00DF54D2 = {
@@ -313,7 +307,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -321,7 +317,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -362,7 +362,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -370,7 +372,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -404,6 +410,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/FDOpenCVDemo/OpenCV",
 				);
+				GCC_INPUT_FILETYPE = automatic;
 				GCC_PREFIX_HEADER = $SRCROOT/FDOpenCVDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = FDOpenCVDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -422,6 +429,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/FDOpenCVDemo/OpenCV",
 				);
+				GCC_INPUT_FILETYPE = automatic;
 				GCC_PREFIX_HEADER = $SRCROOT/FDOpenCVDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = FDOpenCVDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
