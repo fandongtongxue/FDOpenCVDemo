@@ -12,6 +12,10 @@
 
 - [x] 裁剪证件边缘功能
 
+### 演示
+
+![](http://oz0y4mei6.bkt.clouddn.com/FDOpenDemo.gif)
+
 ### 使用第三方库
 
 - [opencv2.framework](http://opencv.org/)
