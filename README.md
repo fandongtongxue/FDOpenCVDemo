@@ -1,23 +1,20 @@
 # FDOpenCVDemo
 
-### 项目借鉴
+### 仓库已删除代码(GitHub单文件限制100MB导致完整项目无法上传)
+### 解决方案:代码已放置到七牛云
+### 下载地址:[http://oz0y4mei6.bkt.clouddn.com/FDOpenCVDemo.zip](http://oz0y4mei6.bkt.clouddn.com/FDOpenCVDemo.zip)
 
-https://github.com/mukyasa/MMCamScanner
+### 借鉴
 
-### 项目功能
-- [x] 拍照
-- [x] 从相册选取
-- [x] 切割图片边缘
+[https://github.com/mukyasa/MMCamScanner](https://github.com/mukyasa/MMCamScanner)
 
-### 项目使用第三方库
+### 功能
+
+- [x] 裁剪证件边缘功能
+
+### 使用第三方库
 
 - [opencv2.framework](http://opencv.org/)
-
-### Demo打开方式
-
-下载opencv2.framework
-- 官方地址:[http://opencv.org/](http://opencv.org/)
-- 我放到七牛云的地址:[http://okyhfqses.bkt.clouddn.com/opencv2.framework.zip](http://okyhfqses.bkt.clouddn.com/opencv2.framework.zip)
 
 ### 感谢
 
