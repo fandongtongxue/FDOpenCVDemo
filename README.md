@@ -2,7 +2,7 @@
 
 ### 仓库已删除代码(GitHub单文件限制100MB导致完整项目无法上传)
 ### 解决方案:代码已放置到七牛云
-### 下载地址:[http://oz0y4mei6.bkt.clouddn.com/FDOpenCVDemo.zip](http://oz0y4mei6.bkt.clouddn.com/FDOpenCVDemo.zip)
+### 下载地址:[http://dl.code.fandong.me/FDOpenCVDemo.zip](http://dl.code.fandong.me/FDOpenCVDemo.zip)
 
 ### 借鉴
 
