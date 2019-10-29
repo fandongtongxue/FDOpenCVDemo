@@ -14,7 +14,7 @@
 
 ### 演示
 
-![](http://oz0y4mei6.bkt.clouddn.com/FDOpenDemo.gif)
+![](https://github.com/fandongtongxue/FDOpenCVDemo/blob/master/FDOpenDemo.gif)
 
 ### 使用第三方库
 
